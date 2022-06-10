@@ -1,2 +1,2 @@
-# Project-Flxbox
-Flexbox projeect
+# Project-Flexbox
+Flexbox project
