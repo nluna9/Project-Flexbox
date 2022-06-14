@@ -200,5 +200,9 @@ width: 21%;
 /* Footer */
 
 .footer {
-    
+    padding: 24px 10%;
+    background: #1F2937;
+    color: #E5E7EB;
+    width: 100%;
+    text-align: center;
 }
