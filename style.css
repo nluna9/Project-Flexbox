@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     font-family: Roboto, sans-serif;
     display: flex;
@@ -7,7 +12,7 @@ body {
   }
 
 .container{
-    margin: 0 0;
+    /* margin: 0 0; */
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -17,13 +22,13 @@ body {
 /* Header */
 
 .header{
-    /* width: 100%; */
+    width: 100%;
     background: #37371f;
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
     font-size: 24px;
-    padding: 24px;
+    padding: 24px 10%;
 }
 
 .header .links{
@@ -41,20 +46,23 @@ body {
  /* Intro */
 
  .intro{
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     display: center;
     background: #1F2937;
-    padding: 48px;
+    padding: 24px 10%;
     gap: 24px;
  }
 
  .image{
     display: block;
+    width: 50%;
  }
 
- img{
-    max-width: 400px;
+ .intro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
  }
 
  .description{
@@ -62,6 +70,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 18px;
     width: 50%;
  }
 
@@ -88,3 +97,44 @@ body {
  }
 
 /* Content */
+
+.content{
+    width: 100%;
+    padding: 24px 10%;
+}
+ .content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+.title {
+    font-size: 38px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.contenedor .box{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 21%;
+}
+
+/* Quote */
+
+.quote{
+    padding: 24px 10%;
+    background:#E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: italic;
+}
