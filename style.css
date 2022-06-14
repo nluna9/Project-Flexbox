@@ -152,3 +152,53 @@ width: 21%;
     font-weight: bolder;
     right: 48px;
 }
+
+/* Signup */
+
+.contenedor-signup{
+    padding: 24px 10%;
+    width: 100%;
+}
+
+.signup{
+    padding: 18px 5%;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.signup .action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup .action h3 {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.signup .action p {
+    color: #F9FAF8;
+    font-size: 14px;
+}
+
+.signup .button {
+    align-self: center;
+}
+
+.signup .button button{
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/* Footer */
+
+.footer {
+    
+}
