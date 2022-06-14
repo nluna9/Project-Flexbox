@@ -23,7 +23,7 @@ body {
 
 .header{
     width: 100%;
-    background: #37371f;
+    background: #1F2937;
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
@@ -134,7 +134,21 @@ width: 21%;
 .quote{
     padding: 24px 10%;
     background:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .phrase {
     color: #1F2937;
     font-size: 36px;
-    font-weight: italic;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+.quote .author {
+    position: relative;
+    align-self: end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bolder;
+    right: 48px;
 }
